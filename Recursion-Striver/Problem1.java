@@ -1,22 +1,38 @@
 // Sum of N numbers using recursion
 
+// Functional Fashion
+
 class Problem1 {
 
-  int count = 0, sum = 0;
-
-  public int sum(int n) {
-    if (count == n + 1)
+  public static int sum(int n) {
+    if (n < 1)
       return 0;
-    else {
-      sum += count++;
-      sum(n);
-    }
-    return sum;
+    else
+      return n + sum(n - 1);
   }
 
   public static void main(String[] args) {
-    Problem1 obj = new Problem1();
     int n = 5;
-    System.out.println(obj.sum(n));
+    System.out.println(sum(n));
   }
 }
+
+// Parameterized Fashion
+
+/*
+ * class Problem1 {
+ * 
+ * public static void sum(int count, int sum) {
+ * if (count < 1) {
+ * System.out.println(sum);
+ * return;
+ * } else
+ * sum(count - 1, sum + count);
+ * }
+ * 
+ * public static void main(String[] args) {
+ * int n = 5;
+ * sum(n, 0);
+ * }
+ * }
+ */
