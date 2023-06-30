@@ -7,3 +7,8 @@
 3. InOrder Traversal
 4. Level Order Traversal
 5. PreOrder Traversal (Iterative)
+6. InOrder Traversal (Iterative)
+7. PostOrder Traversal (Iterative)
+8. All DFS by one algorithm
+9. Maximum Depth of a Binary Tree (DFS)
+10. Maximum Depth of a Binary Tree (BFS)
