@@ -14,3 +14,5 @@
 10. Maximum Depth of a Binary Tree (BFS)
 11. Leetcode 545
 12. Top View of a Binary Tree
+13. Bottom View of a Binary Tree
+14. Path from root to a specific node
