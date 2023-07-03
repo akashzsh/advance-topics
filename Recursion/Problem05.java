@@ -1,6 +1,6 @@
 // Palindrome using Recursion
 
-public class Problem5 {
+public class Problem05 {
 
   public static boolean palindrome(String name, int start, int end) {
     if (start >= end)

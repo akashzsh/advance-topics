@@ -1,4 +1,4 @@
-class Problem6 {
+class Problem06 {
 
   public static int fibonacci(int n) {
     if (n <= 1)

@@ -3,17 +3,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Node {
-  int val;
-  Node left;
-  Node right;
-
-  Node(int data) {
-    val = data;
-    left = right = null;
-  }
-}
-
 public class Problem10 {
   Node root;
 

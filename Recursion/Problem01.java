@@ -2,7 +2,7 @@
 
 // Functional Fashion
 
-class Problem1 {
+class Problem01 {
 
   public static int sum(int n) {
     if (n < 1)

@@ -1,6 +1,6 @@
 // print from n to 1 using backtracking
 
-class Problem2 {
+class Problem02 {
 
   public static void output(int i, int n) {
     if (i > n)

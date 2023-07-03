@@ -1,16 +1,5 @@
 // Maximum Depth of a Binary Tree (DFS)
 
-class Node {
-  int val;
-  Node left;
-  Node right;
-
-  Node(int data) {
-    val = data;
-    left = right = null;
-  }
-}
-
 public class Problem09 {
   Node root;
 

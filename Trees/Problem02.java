@@ -3,17 +3,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Node {
-  int val;
-  Node left;
-  Node right;
-
-  Node(int data) {
-    val = data;
-    left = right = null;
-  }
-}
-
 public class Problem02 {
   Node root;
 

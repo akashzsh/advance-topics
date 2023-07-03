@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-class Problem4 {
+class Problem04 {
 
   public static void reverse(int[] nums, int start, int end) {
     if (start >= end)

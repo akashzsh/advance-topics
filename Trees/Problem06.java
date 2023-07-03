@@ -4,17 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-class Node {
-  int val;
-  Node left;
-  Node right;
-
-  Node(int data) {
-    val = data;
-    left = right = null;
-  }
-}
-
 public class Problem06 {
   Node root;
 

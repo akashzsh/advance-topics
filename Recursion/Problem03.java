@@ -1,6 +1,6 @@
 // Factorial using Recursion
 
-public class Problem3 {
+public class Problem03 {
 
   public static int getFactorial(int n) {
     if (n <= 1)

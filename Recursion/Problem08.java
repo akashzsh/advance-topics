@@ -2,7 +2,7 @@
 
 import java.util.ArrayList;
 
-public class Problem8 {
+public class Problem08 {
 
   public static void subsequences(int index, int[] arr, ArrayList<Integer> nums, int k, int sum) {
     if (index >= arr.length) {
