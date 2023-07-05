@@ -11,7 +11,7 @@ public class Problem04 {
     root = null;
   }
 
-  public static void levelOrder(Node root, List<List<Integer>> res) {
+  public void levelOrder(Node root, List<List<Integer>> res) {
     if (root == null)
       return;
     Queue<Node> queue = new LinkedList<>();
@@ -40,7 +40,7 @@ public class Problem04 {
     tree.root.right.right = new Node(6);
 
     List<List<Integer>> res = new LinkedList<>();
-    levelOrder(tree.root, res);
+    tree.levelOrder(tree.root, res);
     System.out.println(res);
   }
 }
