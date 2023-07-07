@@ -17,3 +17,4 @@
 13. Bottom View of a Binary Tree
 14. Path from root to a specific node
 15. Children Sum Property of Binary Tree
+16. Minimum Time to Burn a Binary Tree from any node
