@@ -20,3 +20,5 @@
 16. Minimum Time to Burn a Binary Tree from any node
 17. Morris Traversal for Inorder
 18. Morris Traversal for Preorder
+19. Ceil in a Binary Search Tree
+20. Floor in a Binary Search Tree
