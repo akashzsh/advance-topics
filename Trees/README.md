@@ -22,3 +22,4 @@
 18. Morris Traversal for Preorder
 19. Ceil in a Binary Search Tree
 20. Floor in a Binary Search Tree
+21. Inorder Successor of a Binary Search Tree
